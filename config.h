@@ -144,11 +144,11 @@
 //#define _THINGSERVER "yourserver.com"		// Server URL of the LoRa-udp.js handler
 
 // Gateway Ident definitions
-#define _DESCRIPTION "LoRaGo DOCK – Single-Channel LoRaWAN Gateway"
-#define _EMAIL "info@sandboxelectronics.com"
+#define _DESCRIPTION "Coredump LoRaGo DOCK – Single-Channel LoRaWAN Gateway"
+#define _EMAIL "vorstand@lists.coredump.ch"
 #define _PLATFORM "LoRaGo DOCK"
-#define _LAT 52.00
-#define _LON 5.800
+#define _LAT 47.2359643
+#define _LON 8.8409588
 #define _ALT 14
 
 // ntp
@@ -197,7 +197,7 @@ struct wpas {
 //
 wpas wpa[] = {
 	{ "", "" },								    // Reserved for WiFi Manager
-	{ "your_router_1", "1st_password" },
+	{ "Coredump Guest", "theansweris42" },
 	{ "", ""}									// spare line
 };	
 
