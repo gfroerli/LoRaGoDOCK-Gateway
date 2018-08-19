@@ -27,7 +27,7 @@
 // Also this is the initial value of debug parameter. 
 // The value can be changed using the admin webserver
 // For operational use, set initial DEBUG vaulue 0
-#define DEBUG 1
+#define DEBUG 0
 
 // BAND can be defined as 868/915 in config.h file
 #define BAND 868
@@ -42,7 +42,7 @@
 // This parameters contains the default value of SF, the actual version can be set with
 // the webserver and it will be stored in SPIFF
 // NOTE: The frequency is set in the loraModem.h file and is default 868.100000 MHz.
-#define _SPREADING SF8
+#define _SPREADING SF7
 
 // Channel Activity Detection
 // This function will scan for valid LoRa headers and determine the Spreading 
