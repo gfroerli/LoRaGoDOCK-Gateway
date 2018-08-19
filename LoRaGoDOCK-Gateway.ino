@@ -357,8 +357,8 @@ void setupTime() {
 // GET THE DNS SERVER IP address
 // ----------------------------------------------------------------------------
 IPAddress getDnsIP() {
-	ip_addr_t dns_ip = dns_getserver(0);
-	IPAddress dns = IPAddress(dns_ip.addr);
+	const ip_addr_t* dns_ip = dns_getserver(0);
+	IPAddress dns = IPAddress(dns_ip->addr);
 	return((IPAddress) dns);
 }
 
